@@ -53,8 +53,7 @@ Run the following commands to create and activate a new Conda environment:
 ```bash
 conda create --name halo_env python=3.8 -y
 conda activate halo_env
-
----
+```
 
 ## 1. Install Dependencies
 
@@ -62,3 +61,4 @@ Ensure you have the `requirements.txt` file in your working directory. Install t
 
 ```bash
 pip install -r requirements.txt
+```
