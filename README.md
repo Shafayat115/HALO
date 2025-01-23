@@ -68,3 +68,45 @@ For PyTorch Geometric dependencies, install them separately according to your Py
 ```bash
 pip install torch-scatter torch-sparse torch-cluster torch-spline-conv -f https://data.pyg.org/whl/torch-2.0.1+cu118.html
 ```
+
+## 2. Dataset Setup
+
+Prepare the following files and directories in your working directory:
+
+### Datasets:
+Ensure the following CSV files are available:
+- `deeploc_train.csv`: Training dataset
+- `deeploc_validation.csv`: Validation dataset
+- `deeploc_test.csv`: Test dataset
+
+Each CSV file should include the following columns:
+- **ACC**: Unique identifier for each sequence.
+- **Sequence**: The protein sequence.
+- **Label columns**: Binary values (`0` or `1`) for subcellular locations such as `Cytoplasm`, `Nucleus`, `Extracellular`, etc.
+
+---
+
+### Additional Directories:
+
+1. **PDB Files Directory**:
+   - Create a directory named `pdb_files`.
+   - Place AlphaFold-predicted PDB files for the sequences in your dataset.
+   - If any PDB files are missing, the scripts will automatically attempt to download them.
+
+2. **ESM Embeddings Directory**:
+   - Create a directory named `esm_embeddings_pretrained`.
+   - This directory will store the generated ESM embeddings.
+  
+   - 
+## Running the Scripts
+
+Follow the steps below to execute the scripts in the correct order.
+
+---
+
+### Step 1: Fine-Tune the ESM Model
+
+Fine-tune the ESM model and generate embeddings by running the `Fine-Tune-ESM-Model.py` script.
+
+```bash
+python Fine-Tune-ESM-Model.py
