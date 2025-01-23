@@ -110,3 +110,18 @@ Fine-tune the ESM model and generate embeddings by running the `Fine-Tune-ESM-Mo
 
 ```bash
 python Fine-Tune-ESM-Model.py
+```
+### Expected Outputs:
+
+- Fine-tuned model weights saved in the `Models` directory.
+- Logs written to `fine_tuned_esm_with_structure_weight_fixed_weight_combo.log`.
+
+---
+
+### Step 2: Train Weighted ESM-GAT Hybrid Model
+
+Train a weighted ESM-GAT hybrid model by running the `Fine-Tuned_Weighted_ESM_GAT_Fixed_Combo.py` script.
+
+```bash
+python Fine-Tuned_Weighted_ESM_GAT_Fixed_Combo.py
+```
