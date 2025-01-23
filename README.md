@@ -17,13 +17,13 @@ embeddings in graph-based neural networks, setting a new standard in subcellular
 flexible, adaptable framework for broader protein function annotation tasks, emphasizing the importance of multi-modal
 data integration in bioinformatics.
 
-![Architecture](https://github.com/user-attachments/assets/94573baa-bfeb-4a2f-b15b-91407b12b489)
+### Figures
 
-*Figure 1: Architecture Diagram*
-![Fine-Tune-ESM](https://github.com/user-attachments/assets/dfc8c5fc-485d-4a11-8bd7-763d0a192d6a)
+![Architecture](https://github.com/user-attachments/assets/94573baa-bfeb-4a2f-b15b-91407b12b489)  
+**Figure 1:** Architecture Diagram
 
-*Figure 2: Fine-tuning ESM-2 Architecture Diagram*
+![Fine-Tune-ESM](https://github.com/user-attachments/assets/dfc8c5fc-485d-4a11-8bd7-763d0a192d6a)  
+**Figure 2:** Fine-tuning ESM-2 Architecture Diagram
 
-![GAT-Model](https://github.com/user-attachments/assets/154a4015-432c-428f-ae0e-25ae9a676e60)
-
-*Figure 3: Graph Attention Model Training Diagram*
+![GAT-Model](https://github.com/user-attachments/assets/154a4015-432c-428f-ae0e-25ae9a676e60)  
+**Figure 3:** Graph Attention Model Training Diagram
