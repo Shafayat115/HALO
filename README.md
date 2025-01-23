@@ -125,3 +125,26 @@ Train a weighted ESM-GAT hybrid model by running the `Fine-Tuned_Weighted_ESM_GA
 ```bash
 python Fine-Tuned_Weighted_ESM_GAT_Fixed_Combo.py
 ```
+### Expected Outputs:
+
+- Logs saved in `fine_tuned_esm_with_structure_weight_fixed_weight_combo.log`.
+- Best model weights saved in the `Models` directory.
+- Evaluation metrics and confidence analysis saved as:
+  - `confidence_analysis_test_set_updated.json`
+  - `evaluation_results_updated.csv`
+
+---
+
+### Step 3: Run the HALO Framework
+
+To combine ESM and GAT predictions and improve uncertain predictions, run the following command:
+
+```bash
+python HALO.py
+```
+### Expected Outputs:
+
+- Predictions for uncertain sequences saved in `uncertain_sequences_with_gat.csv`.
+- Final evaluation metrics saved as:
+  - `esm_results.json`
+  - `final_test_metrics_updated.json`
