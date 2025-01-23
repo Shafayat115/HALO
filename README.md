@@ -19,11 +19,17 @@ data integration in bioinformatics.
 
 ### Figures
 
-![Architecture](https://github.com/user-attachments/assets/94573baa-bfeb-4a2f-b15b-91407b12b489)  
-**Figure 1:** Architecture Diagram
+<div align="center">
+    <img src="https://github.com/user-attachments/assets/94573baa-bfeb-4a2f-b15b-91407b12b489" alt="Architecture" width="80%">
+    <p><strong>Figure 1:</strong> Architecture Diagram</p>
+</div>
 
-![Fine-Tune-ESM](https://github.com/user-attachments/assets/dfc8c5fc-485d-4a11-8bd7-763d0a192d6a)  
-**Figure 2:** Fine-tuning ESM-2 Architecture Diagram
+<div align="center">
+    <img src="https://github.com/user-attachments/assets/dfc8c5fc-485d-4a11-8bd7-763d0a192d6a" alt="Fine-Tune-ESM" width="80%">
+    <p><strong>Figure 2:</strong> Fine-tuning ESM-2 Architecture Diagram</p>
+</div>
 
-![GAT-Model](https://github.com/user-attachments/assets/154a4015-432c-428f-ae0e-25ae9a676e60)  
-**Figure 3:** Graph Attention Model Training Diagram
+<div align="center">
+    <img src="https://github.com/user-attachments/assets/154a4015-432c-428f-ae0e-25ae9a676e60" alt="GAT-Model" width="80%">
+    <p><strong>Figure 3:</strong> Graph Attention Model Training Diagram</p>
+</div>
