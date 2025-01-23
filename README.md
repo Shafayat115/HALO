@@ -56,5 +56,9 @@ conda activate halo_env
 
 ---
 
-## Install Dependencies
-Ensure you have the requirements.txt file in your working directory. Install the required dependencies by running:
+## 1. Install Dependencies
+
+Ensure you have the `requirements.txt` file in your working directory. Install the required dependencies using the following command:
+
+```bash
+pip install -r requirements.txt
