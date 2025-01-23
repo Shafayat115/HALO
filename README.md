@@ -33,3 +33,28 @@ data integration in bioinformatics.
     <img src="https://github.com/user-attachments/assets/154a4015-432c-428f-ae0e-25ae9a676e60" alt="GAT-Model" width="80%">
     <p><strong>Figure 3:</strong> Graph Attention Model Training Diagram</p>
 </div>
+
+
+
+## Pre-requisites
+
+Ensure you have the following installed:
+- **Python**: Version 3.8 or higher
+- **CUDA-compatible GPU**: With appropriate drivers installed
+- **Conda**: For managing the Python environment
+- **Git**: To clone repositories if needed
+
+---
+
+## Setup Instructions
+
+### 1. Create and Activate Conda Environment
+Run the following commands to create and activate a new Conda environment:
+```bash
+conda create --name halo_env python=3.8 -y
+conda activate halo_env
+
+---
+
+## Install Dependencies
+Ensure you have the requirements.txt file in your working directory. Install the required dependencies by running:
