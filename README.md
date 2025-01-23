@@ -96,8 +96,7 @@ Each CSV file should include the following columns:
 2. **ESM Embeddings Directory**:
    - Create a directory named `esm_embeddings_pretrained`.
    - This directory will store the generated ESM embeddings.
-  
-   - 
+
 ## Running the Scripts
 
 Follow the steps below to execute the scripts in the correct order.
