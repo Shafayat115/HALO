@@ -62,3 +62,9 @@ Ensure you have the `requirements.txt` file in your working directory. Install t
 ```bash
 pip install -r requirements.txt
 ```
+
+For PyTorch Geometric dependencies, install them separately according to your PyTorch version and CUDA setup. For example, if using CUDA 11.8:
+
+```bash
+pip install torch-scatter torch-sparse torch-cluster torch-spline-conv -f https://data.pyg.org/whl/torch-2.0.1+cu118.html
+```
